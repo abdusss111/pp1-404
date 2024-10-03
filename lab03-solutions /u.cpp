@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int number[1000];
+    int number[1000] = {};
     for(int i = 0; i < 1000; i++) number[i] = 0;
 
     int n, max = INT_MIN;
