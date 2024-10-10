@@ -8,8 +8,6 @@ int main(){
         result = symbols[n%16] + result;
         n /= 16; 
     }
-    result += symbols[0];
-    result += symbols[2];
     cout << result;
     return 0;
 }
